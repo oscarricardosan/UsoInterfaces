@@ -3,7 +3,7 @@
 require __DIR__ . '/vendor/autoload.php';
 
 use UsoInterfaces\Objetos\Calculadoras\CalculadoraBasica;
-use UsoInterfaces\Objetos\Calculadoras\CalculadoraBasicaHtm;
+use UsoInterfaces\Objetos\Calculadoras\CalculadoraBasicaHtml;
 use UsoInterfaces\Objetos\Cliente;
 use UsoInterfaces\Objetos\PrecioPapa;
 
@@ -15,7 +15,7 @@ echo $precioPapaBlanca->getCliente()->obtenerNombre();
 echo '<hr>';
 
 $clienteOscar = new Cliente('Oscar');
-$calculadoraHtml = new CalculadoraBasicaHtm();
+$calculadoraHtml = new CalculadoraBasicaHtml();
 $precioPapaTocarreña = new PrecioPapa(100, 200, $calculadoraHtml, $clienteOscar);
 echo $precioPapaTocarreña->obtenerValor().'<br>';
 echo $precioPapaTocarreña->getCliente()->obtenerNombre();

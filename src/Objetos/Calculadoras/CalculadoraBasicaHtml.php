@@ -2,7 +2,7 @@
 
 namespace UsoInterfaces\Objetos\Calculadoras;
 
-class CalculadoraBasicaHtm extends CalculadoraBase
+class CalculadoraBasicaHtml extends CalculadoraBase
 {
 
     public function renderMensaje($resultadoOperacion)
