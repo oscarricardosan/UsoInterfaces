@@ -1,0 +1,10 @@
+{
+    "name": "OscarricardoSan/UsoInterfaces",
+    "description": "Ejemplo del uso de Interfaces.",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Uso_interfacesOscarricardosan\\" : "src/"
+        }
+    }
+}
