@@ -2,10 +2,10 @@
 
 require __DIR__ . '/vendor/autoload.php';
 
-use Uso_interfacesOscarricardosan\Objetos\Calculadoras\CalculadoraBasica;
-use Uso_interfacesOscarricardosan\Objetos\Calculadoras\CalculadoraBasicaHtm;
-use Uso_interfacesOscarricardosan\Objetos\Cliente;
-use Uso_interfacesOscarricardosan\Objetos\PrecioPapa;
+use UsoInterfaces\Objetos\Calculadoras\CalculadoraBasica;
+use UsoInterfaces\Objetos\Calculadoras\CalculadoraBasicaHtm;
+use UsoInterfaces\Objetos\Cliente;
+use UsoInterfaces\Objetos\PrecioPapa;
 
 $clienteAntonio = new Cliente('ANtonio');
 $calculadoraBasica = new CalculadoraBasica();

@@ -1,6 +1,6 @@
 <?php
 
-namespace Uso_interfacesOscarricardosan\Interfaces;
+namespace UsoInterfaces\Interfaces;
 
 interface ClienteInterface
 {

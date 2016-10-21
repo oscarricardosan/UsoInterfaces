@@ -1,6 +1,6 @@
 <?php
 
-namespace Uso_interfacesOscarricardosan\Objetos\Calculadoras;
+namespace UsoInterfaces\Objetos\Calculadoras;
 
 class CalculadoraBasica extends CalculadoraBase
 {

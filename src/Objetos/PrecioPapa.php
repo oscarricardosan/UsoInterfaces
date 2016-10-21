@@ -1,9 +1,9 @@
 <?php
 
-namespace Uso_interfacesOscarricardosan\Objetos;
+namespace UsoInterfaces\Objetos;
 
-use Uso_interfacesOscarricardosan\Interfaces\CalculadoraInterface;
-use Uso_interfacesOscarricardosan\Interfaces\ClienteInterface;
+use UsoInterfaces\Interfaces\CalculadoraInterface;
+use UsoInterfaces\Interfaces\ClienteInterface;
 
 class PrecioPapa{
 

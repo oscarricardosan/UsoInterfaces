@@ -1,8 +1,8 @@
 <?php
 
-namespace Uso_interfacesOscarricardosan\Objetos\Calculadoras;
+namespace UsoInterfaces\Objetos\Calculadoras;
 
-use Uso_interfacesOscarricardosan\Interfaces\CalculadoraInterface;
+use UsoInterfaces\Interfaces\CalculadoraInterface;
 
 abstract class CalculadoraBase implements CalculadoraInterface
 {
